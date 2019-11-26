@@ -1,0 +1,14 @@
+{
+    "access_token": "NgFg9j3RzDO8lH08OF0OpreH63IFjVmL",
+    "token_type": "bearer",
+    "expires_in": 10800,
+    "refresh_token": "C_f7TEJSasUNzMw4w2AMo6OWbC-mFWlB",
+    "scope": "read_events change_participation_status",
+    "sub": "acc_5dda2d47a637UUiikTr400e3",
+    "account_id": "acc_5dda2d47a637UUiikTr400e3",
+    "linking_profile": {
+        "provider_name": "google",
+        "profile_id": "pro_W184ePQIYQj24ORB",
+        "profile_name": "someone@example.com"
+    }
+}

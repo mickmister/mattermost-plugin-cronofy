@@ -1,0 +1,11 @@
+{
+    "notification": {
+        "type": "verification"
+    },
+    "channel": {
+        "channel_id": "chn_5ddb45ba0dc4520062c39f69",
+        "callback_url": "https://mickmister.ngrok.io/plugins/cronofy/webhook?user_id=t88abq1sipbbxmhijgw431gc9c&secret=",
+        "filters": {},
+        "scheduling_conversations": {}
+    }
+}

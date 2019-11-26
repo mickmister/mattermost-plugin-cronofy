@@ -1,0 +1,12 @@
+{
+    "notification": {
+        "type": "change",
+        "changes_since": "2019-11-25T01:29:45Z"
+    },
+    "channel": {
+        "channel_id": "chn_5ddb2e49981688008d65c659",
+        "callback_url": "https://somemattermostinstance.com/plugins/cronofy/webhook?user_id=t88abq1sipbbxmhijgw431gc9c&secret=somesecret",
+        "filters": {},
+        "scheduling_conversations": {}
+    }
+}

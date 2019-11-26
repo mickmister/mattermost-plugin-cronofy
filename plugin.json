@@ -1,7 +1,7 @@
 {
-    "id": "com.mattermost.plugin-starter-template",
-    "name": "Plugin Starter Template",
-    "description": "This plugin serves as a starting point for writing a Mattermost plugin.",
+    "id": "cronofy",
+    "name": "Cronofy Calendar Integrations",
+    "description": "Cronofy allows you to connect to several different calendar providers.",
     "version": "0.1.0",
     "min_server_version": "5.12.0",
     "server": {
@@ -11,12 +11,36 @@
             "windows-amd64": "server/dist/plugin-windows-amd64.exe"
         }
     },
-    "webapp": {
-        "bundle_path": "webapp/dist/main.js"
-    },
     "settings_schema": {
         "header": "",
         "footer": "",
-        "settings": []
+        "settings": [
+            {
+                "key": "ClientID",
+                "display_name": "Cronofy Client ID",
+                "type": "text",
+                "help_text": ""
+            },
+            {
+                "key": "ClientSecret",
+                "display_name": "Client Secret from Cronofy",
+                "type": "text",
+                "help_text": ""
+            },
+            {
+                "key": "WebhookSecret",
+                "display_name": "Generated secret for your Mattermost instance.",
+                "type": "generated",
+                "help_text": "The secret used to authenticate the webhook to Mattermost.",
+                "regenerate_help_text": "Regenerates the secret for the webhook URL endpoint. Regenerating the secret invalidates your existing Cronofy integrations."
+            },
+            {
+                "key": "EnableAvailabilityJob",
+                "display_name": "Enable to run the recurring availability job.",
+                "type": "bool",
+                "help_text": "",
+                "default": false
+            }
+        ]
     }
 }

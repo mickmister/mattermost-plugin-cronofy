@@ -1,0 +1,24 @@
+{
+    "participants": [
+        {
+            "members": [
+                {
+                    "sub": "acc_875452000909089",
+                    "calendar_ids": ["cal_n78ljnwrw2_jsdftuen234"]
+                }
+            ],
+            "required": "all"
+        }
+    ],
+    "required_duration": { "minutes": 15 },
+    "available_periods": [
+        {
+            "start": "2019-11-25T09:00:00Z",
+            "end": "2019-11-25T18:00:00Z"
+        }
+    ],
+    "buffer": {
+        "before": { "minutes": 6 },
+        "after": { "minutes": 5 }
+    }
+}
